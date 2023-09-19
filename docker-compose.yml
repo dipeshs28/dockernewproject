@@ -22,7 +22,7 @@ services:
       replicas: 3
 
   recharge:
-    image: dipeshs28:first:latest
+    image: dipeshs28/first:latest
     ports:
       - "84:80"
     deploy:
